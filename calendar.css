@@ -1,0 +1,95 @@
+table, td, th {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+tr {
+	height: 100px;
+}
+td {
+	font-family: Verdana, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#dayBackround {
+	position: absolute;
+	background-color: white;
+	width: 252px;
+	height: 700px;
+	margin-left: 457px;
+	margin-top: 163px;
+}
+#dayTable {
+	position: absolute;
+	margin-top: 62px;
+	margin-left: 456px;
+}
+#singleDay {
+	width: 250px;
+	font-family: Calibri, sans-serif;
+	text-align: center;
+	font-size: 30px;
+}
+#dayTranslate {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	z-index: 1001;
+}
+
+#taskTable {
+	position: absolute;
+	margin-left: 709px;
+	margin-top: 162px;
+	width: 750px;
+	background-color: #fdf6f2;
+}
+
+.addTask {
+	position: absolute;
+	margin-top: -44px;
+	margin-left: 8px;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+.Task {
+	position: absolute;
+	margin-top: -22px;
+	margin-left: 8px;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+}
+.editTask {
+	position: absolute;
+	margin-top: -44px;
+	margin-left: 660px;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+}
+#arrayWeek {
+	margin-left: 456px;
+}
+#lastWeek {
+	position: absolute;
+	margin-top: 122px;
+	font-family: Calibri, sans-serif;
+	font-size: 25px;
+	z-index: 1000;
+}
+#nextWeek {
+	position: absolute;
+	margin-top: 122px;
+	margin-left: 858px;
+	font-family: Calibri, sans-serif;
+	font-size: 25px;
+}
+
+#sit {
+	position: absolute;
+}
